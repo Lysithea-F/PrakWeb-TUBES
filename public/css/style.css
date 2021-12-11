@@ -1,4 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+nav .container .navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
 .login,
 .register {
     box-shadow: 1px 1px 10px 10px rgba(1, 0, 0, 0.1);
 }
+
+.main-container{
+    text-align: center;
+    background: #D8DADE;
+}
+
+.heading{
+    padding-top: 60px;
+    color: #444;
+    font-size: 50px;
+    margin: auto;
+    line-height: 50px;
+    font-weight: bold;
+}
+.sub-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teams{
+    margin: 10px;
+    padding: 20px;
+    max-width: 25%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+.teams:hover{
+    background: rgb(153, 152, 152);
+    border-radius: 10px;
+}
+
+.teams img{
+    width: 200px;
+    height: 200px;
+}
+
+.nama{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.peran{
+    color: #888;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+
+.about{
+    margin: 20px;
+    font-weight: lighter;
+    color: #4e4e4e;
+}
+
+.sosmed{
+    margin: 14px;
+
+}
+
+.sosmed a{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    transition: 0.4s;
+}
+
+.sosmed a:hover{
+    transform: scale(1.3);
+}
+
+.sosmed a i{
+    color: #444;
+ 
+}
+
+@media screen and (max-width: 600px){
+    .teams{
+        max-width: 100%;
+    }
+}
+
+.footer {
+    padding: 10px;
+    background-color: #6B727A;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.sosmed-footer .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 10px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+    
+}
+
+.sosmed-footer .button a{
+    text-decoration: none;
+    color: black;
+}
+
+.sosmed-footer .button:hover{
+    width: 178px;
+}
+
+.sosmed-footer .button .icon{
+    display: inline-block;
+    color: black;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.sosmed-footer .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.sosmed-footer .button:hover .icon i{
+    color: #fff;
+}
+
+.sosmed-footer .button:nth-child(1):hover .icon{
+    background: #E1306C;
+}
+
+.sosmed-footer .button:nth-child(2):hover .icon{
+    background: #333;
+}
+
+.sosmed-footer .button:nth-child(3):hover .icon{
+    background: #ff0000;
+}
+
+
+.sosmed-footer.button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.sosmed-footer .button:nth-child(1):hover span{
+    color: #E1306C;
+}
+
+.sosmed-footer .button:nth-child(2):hover span{
+    color: #333;
+}
+
+.sosmed-footer .button:nth-child(3):hover span{
+    color: #ff0000;
+}
+
+.footer .copyright{
+    margin-top: 20px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+
