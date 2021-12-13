@@ -632,16 +632,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* @media (max-width: 768px) {
-  #Search h1 {
+@media screen and (max-width: 768px) {
+  .search h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #search-button h2 {
+  #search-button {
     font-size: 18px;
-    line-height: 24px;
-    max-width: 768px
+    line-height: 24px; 
+     max-width: 100%;
   }
+}
+
+/* max-width: 768px;
+@media screen and (max-width: 600px){
+    .teams{
+        max-width: 100%;
+    }
 } */
 
 /*--------------------------------------------------------------
