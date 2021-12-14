@@ -6,7 +6,7 @@
 <div class="card">
     <div class="row">
       <div class="col-lg-5">
-        <img src="img/film.jpg" class="img-fluid rounded-start" alt="film">
+        <img src="/img/film.jpg" class="img-fluid rounded-start" alt="film">
       </div>
       <div class="col-lg-7 py-5">
           <div class="row justify-content-center">
