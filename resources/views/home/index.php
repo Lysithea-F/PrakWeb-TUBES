@@ -10,8 +10,8 @@
   <meta content="" name="keywords"> -->
 
   <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
@@ -36,7 +36,7 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="#hero">CTRL + C</a></h1>
+      <h1 class="logo me-auto me-lg-0" ><a href="#hero">CTRL + C</a></h1>
       
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -127,7 +127,7 @@
       </div>
     </section><!-- End About Section -->
 
-
+    <!-- !-- Search Section --> -->
     <section id="Search" class="search">
     <div class="container"  data-aos="fade-up">
           <div class="row mt-3 justify-content-center">
@@ -136,8 +136,9 @@
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Judul Film" id="search-input">
                         <div class="input-group-append">
-                        <button href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex md-6" type="button" id="search-button">Search
+                        <!-- <button href="#book-a-table" class="bok-a-table-btn scrollto d-none d-lg-flex md-6" type="button" id="search-button">Search -->
                         </button>
+                        <button href="#book-a-table" class="bok-a-table-btn" type="button" id="search-button">Search</button>
                       </div>
                     </div>
                 </div>
@@ -148,7 +149,26 @@
           <div class="row" id="movie-list">
 
           </div>
-    </section>
+    </section><!-- End Search Section -->
+
+    <section><!-- Bundel Section -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Movie Search</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </section><!-- Bundel Section -->
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
