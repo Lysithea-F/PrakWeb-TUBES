@@ -106,20 +106,17 @@
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>Deskripsi Kelompok CTRL+C</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Kelompok CTRL+C beranggota kan 5 orang, yaitu Hikmat, Ferry, Wahyu, Diva dan Chandra.
             </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+              Kelompok ini dibentuk dengan tujuan dapat menyelesaikan Tugas Besar terkait Mata Kuliah Praktikum
+              Pemrograman Web. Pembagian tugas dilakukan dengan cara musyawarah agar tidak terjadi hal yang tidak
+              mengenakan di dalam kelompok. Indikator keberhasilan dari kelompok kami yaitu dapat mengimplementasikan 
+              penggunaan API pada web, web yang dibangun sudah bisa menggunakan fitur CRUDS, web yang dibangun sudah memiliki fitur Login dan registrasi,
+              dan web yang dibangun harus memiliki field gambar yang nantinya bisa dikelola.
+              Harapan kami web yang kami bangun dapat menjadi bahan pembelajaran yang mungkin nantinya bisa diterapkan di dunia kerja.
             </p>
           </div>
         </div>
@@ -134,7 +131,7 @@
                 <div class="col-md-8">
                     <h1 class="text-center">Search Movie</h1>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Judul Film" id="search-input">
+                        <input type="text" class="form-control" placeholder="Judul Film..." id="search-input">
                         <div class="input-group-append">
                         <!-- <button href="#book-a-table" class="bok-a-table-btn scrollto d-none d-lg-flex md-6" type="button" id="search-button">Search -->
                         </button>
@@ -175,8 +172,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Why Us</h2>
-          <p>Why Choose CTRL + C</p>
+          <p>Mengapa Kami Memilih Nama CTRL + C ?</p>
         </div>
 
         <div class="row">
@@ -184,24 +180,22 @@
           <div class="col-lg-4">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <h4>Enak Didengar</h4>
+              <p></p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <h4>Mudah Diingat</h4>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              <h4>Sangat Informatika</h4>
             </div>
           </div>
 
@@ -586,11 +580,11 @@
                   <span>Ketua</span>
                 </div>
                 <div class="social">
-                <a class="sosmed-link" href="https://www.instagram.com/fadrial_r/">
+                <a class="sosmed-link" href="https://www.instagram.com/fadrial_r/" target="_blank">
                         <i class="bi bi-instagram"></i>
                         
                     </a> 
-                    <a class="sosmed-link" href="https://github.com/HikmatFadrialR">
+                    <a class="sosmed-link" href="https://github.com/HikmatFadrialR" target="_blank">
                         <i class="bi bi-github"></i>
                         
                     </a>  
@@ -612,7 +606,7 @@
                         <i class="bi bi-instagram"></i>
                         
                     </a> 
-                    <a class="sosmed-link" href="https://github.com/193040126">
+                    <a class="sosmed-link" href="https://github.com/193040126" target="_blank">
                         <i class="bi bi-github"></i>
                         
                     </a> 
@@ -630,11 +624,11 @@
                   <span>Anggota</span>
                 </div>
                 <div class="social">
-                <a class="sosmed-link" href="https://www.instagram.com/chandrarmdhn_/" target="_blank">
+                <a class="sosmed-link" href="https://www.instagram.com/chandrarmdhn_/" target="_blank" target="_blank">
                         <i class="bi bi-instagram"></i>
                       
                     </a> 
-                    <a class="sosmed-link" href="https://github.com/Chandrarmdhn">
+                    <a class="sosmed-link" href="https://github.com/Chandrarmdhn" target="_blank">
                         <i class="bi bi-github"></i>
                         
                     </a> >
@@ -652,11 +646,11 @@
                   <span>Anggota</span>
                 </div>
                 <div class="social">
-                <a class="sosmed-link" href="https://www.instagram.com/wahyuaprian490/">
+                <a class="sosmed-link" href="https://www.instagram.com/wahyuaprian490/" target="_blank">
                         <i class="bi bi-instagram"></i>
                         
                     </a> 
-                    <a class="sosmed-link" href="https://github.com/WahyuAprian-193040141">
+                    <a class="sosmed-link" href="https://github.com/WahyuAprian-193040141" target="_blank">
                         <i class="bi bi-github"></i>
                         
                     </a> 
@@ -674,11 +668,11 @@
                   <span>Anggota</span>
                 </div>
                 <div class="social">
-                <a class="sosmed-link" href="https://www.instagram.com/ferryqiulz/">
+                <a class="sosmed-link" href="https://www.instagram.com/ferryqiulz/" target="_blank">
                         <i class="bi bi-instagram"></i>
                         
                     </a> 
-                    <a class="sosmed-link" href="https://github.com/FerriSyamsulMaarif">
+                    <a class="sosmed-link" href="https://github.com/FerriSyamsulMaarif" target="_blank">
                         <i class="bi bi-github"></i>
                        
                     </a>
@@ -711,11 +705,11 @@
                 <strong>Email:</strong> info@example.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" target="_blank" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
