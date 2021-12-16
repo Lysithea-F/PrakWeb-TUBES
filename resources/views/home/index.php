@@ -41,13 +41,13 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#Search">Search Movie</a></li>
-          <li><a class="nav-link scrollto" href="#menu">About Us</a></li>
-          <li><a class="nav-link scrollto" href="#events">Events</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#events">Favorite</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#menu">About Us</a></li>
           <li><a class="nav-link scrollto" href="#chefs">Develover</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -63,8 +63,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
-        </ul>
+          </li> -->
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
       <a href="../login/" class="book-a-table-btn scrollto d-none d-lg-flex">Login</a>
@@ -140,6 +139,230 @@
 </div>
     </section><!-- Bundel Section -->
 
+
+
+
+     <!-- ======= About Section ======= -->
+     <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/a.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Deskripsi Kelompok CTRL+C</h3>
+            <p class="fst-italic">
+              Kelompok CTRL+C beranggota kan 5 orang, yaitu Hikmat, Ferry, Wahyu, Diva dan Chandra.
+            </p>
+            <p>
+              Kelompok ini dibentuk dengan tujuan dapat menyelesaikan Tugas Besar terkait Mata Kuliah Praktikum
+              Pemrograman Web. Pembagian tugas dilakukan dengan cara musyawarah agar tidak terjadi hal yang tidak
+              mengenakan di dalam kelompok. Indikator keberhasilan dari kelompok kami yaitu dapat mengimplementasikan 
+              penggunaan API pada web, web yang dibangun sudah bisa menggunakan fitur CRUDS, web yang dibangun sudah memiliki fitur Login dan registrasi,
+              dan web yang dibangun harus memiliki field gambar yang nantinya bisa dikelola.
+              Harapan kami web yang kami bangun dapat menjadi bahan pembelajaran yang mungkin nantinya bisa diterapkan di dunia kerja.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+
+
+     <!-- ======= Events Section ======= -->
+     <section id="events" class="events">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Our Favorite</h2>
+          <p>The Movies we like</p>
+        </div>
+
+        <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/gallery/7.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Birthday Parties</h3>
+                  <div class="price">
+                    <p><span>$189</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/gallery/2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Private Parties</h3>
+                  <div class="price">
+                    <p><span>$290</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/gallery/3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Custom Parties</h3>
+                  <div class="price">
+                    <p><span>$99</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End our favorite Section -->
+
+
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+
+<div class="container" data-aos="fade-up">
+  <div class="section-title">
+    <h2>Gallery</h2>
+    <p>Some photos </p>
+  </div>
+</div>
+
+<div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+  <div class="row g-0">
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+          <img src="assets/img/gallery/1.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/5.jpg" class="gallery-lightbox" data-gall="gallery-item">
+          <img src="assets/img/gallery/5.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/8.jpg" class="gallery-lightbox" data-gall="gallery-item">
+          <img src="assets/img/gallery/8.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/4.jpg" class="gallery-lightbox" data-gall="gallery-item">
+          <img src="assets/img/gallery/4.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/9.jpg" class="gallery-lightbox" data-gall="gallery-item">
+          <img src="assets/img/gallery/9.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/6.jpg" class="gallery-lightbox" data-gall="gallery-item">
+          <img src="assets/img/gallery/6.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/7.jpg" class="gallery-lightbox" data-gall="gallery-item">
+          <img src="assets/img/gallery/7.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4">
+      <div class="gallery-item">
+        <a href="assets/img/gallery/10.jpg" class="gallery-lightbox" data-gall="gallery-item">
+          <img src="assets/img/gallery/10.jpg" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</section><!-- End Gallery Section -->
+
+
+
+
+
      <!-- ======= Why Us Section ======= -->
      <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
@@ -177,34 +400,6 @@
       </div>
     </section><!-- End Why Us Section -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
-            <div class="about-img">
-              <img src="assets/img/about.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Deskripsi Kelompok CTRL+C</h3>
-            <p class="fst-italic">
-              Kelompok CTRL+C beranggota kan 5 orang, yaitu Hikmat, Ferry, Wahyu, Diva dan Chandra.
-            </p>
-            <p>
-              Kelompok ini dibentuk dengan tujuan dapat menyelesaikan Tugas Besar terkait Mata Kuliah Praktikum
-              Pemrograman Web. Pembagian tugas dilakukan dengan cara musyawarah agar tidak terjadi hal yang tidak
-              mengenakan di dalam kelompok. Indikator keberhasilan dari kelompok kami yaitu dapat mengimplementasikan 
-              penggunaan API pada web, web yang dibangun sudah bisa menggunakan fitur CRUDS, web yang dibangun sudah memiliki fitur Login dan registrasi,
-              dan web yang dibangun harus memiliki field gambar yang nantinya bisa dikelola.
-              Harapan kami web yang kami bangun dapat menjadi bahan pembelajaran yang mungkin nantinya bisa diterapkan di dunia kerja.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
 
     <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu section-bg">
@@ -276,7 +471,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-anggota">
-            <img src="/img/ferry.png" class="menu-img" alt="">
+            <img src="/img/ferry1.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Anggota</a>
             </div>
@@ -294,105 +489,7 @@
 
     
 
-    <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Events</h2>
-          <p>Organize Events in our Develover</p>
-        </div>
-
-        <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Birthday Parties</h3>
-                  <div class="price">
-                    <p><span>$189</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/event-private.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Private Parties</h3>
-                  <div class="price">
-                    <p><span>$290</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/event-custom.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Custom Parties</h3>
-                  <div class="price">
-                    <p><span>$99</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Events Section -->
+   
 
     
     <!-- ======= Testimonials Section ======= -->
@@ -400,8 +497,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>What they're saying about us</p>
+          <h2>Word</h2>
+          <p>words of wisdom</p>
         </div>
 
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -415,8 +512,8 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="/img/hikmat.png" class="testimonial-img" alt="">
-                <h3>SHikmat</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Hikmat</h3>
+                <h4>Login</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -429,7 +526,7 @@
                 </p>
                 <img src="/img/diva.jpeg" class="testimonial-img" alt="">
                 <h3>Diva A</h3>
-                <h4>Designer</h4>
+                <h4>About</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -442,7 +539,7 @@
                 </p>
                 <img src="/img/chandra.png" class="testimonial-img" alt="">
                 <h3>Chandra</h3>
-                <h4>Store Owner</h4>
+                <h4>Dashboard</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -455,7 +552,7 @@
                 </p>
                 <img src="/img/wahyu.png" class="testimonial-img" alt="">
                 <h3>Wahyu</h3>
-                <h4>Freelancer</h4>
+                <h4>Dashboard</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -466,9 +563,9 @@
                   Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="/img/ferry.png" class="testimonial-img" alt="">
+                <img src="/img/ferry1.png" class="testimonial-img" alt="">
                 <h3>Ferri SM</h3>
-                <h4>Entrepreneur</h4>
+                <h4>Home</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -479,88 +576,7 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Gallery</h2>
-          <p>Some photos </p>
-        </div>
-      </div>
-
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-0">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Gallery Section -->
+   
 
     <!-- ======= Chefs Section ======= -->
     <section id="chefs" class="chefs">
@@ -663,7 +679,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="/img/ferry.png" class="img-fluid" alt="">
+              <img src="/img/ferry.jpeg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Ferri Syamsul Ma'arif</h4>
@@ -711,11 +727,11 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#chefs">Developer</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#events">Our Favorite</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#gallery">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#menu">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#chefs">Develover</a></li>
             </ul>
           </div>
 
