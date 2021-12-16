@@ -42,9 +42,7 @@ class Post extends Model
         return $this->belongsTo(User::class, 'user_id');
     }
 
-    public function getRouteKeyName() {
-        return 'slug';
-    }
+  
 
     public function sluggable(): array
     {
@@ -53,6 +51,11 @@ class Post extends Model
                 'source' => 'title'
             ]
         ];
+    }
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
     }
 
 }
