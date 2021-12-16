@@ -36,17 +36,17 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0" ><a href="#hero">CTRL + C</a></h1>
+      <h1 class="logo me-auto me-lg-0" ><a href="#home">CTRL + C</a></h1>
       
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="#home">Home</a></li>
           <li><a class="nav-link scrollto" href="#Search">Search Movie</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#events">Favorite</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#menu">About Us</a></li>
-          <li><a class="nav-link scrollto" href="#chefs">Develover</a></li>
+          <li><a class="nav-link scrollto" href="#dev">Develover</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -64,6 +64,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
+        </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
       <a href="../login/" class="book-a-table-btn scrollto d-none d-lg-flex">Login</a>
@@ -71,8 +72,8 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <!-- ======= Home Section ======= -->
+  <section id="home" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
@@ -90,7 +91,7 @@
 
       </div>
     </div>
-  </section><!-- End Hero -->
+  </section><!-- End Home -->
 
   <main id="main">
 
@@ -192,22 +193,14 @@
                   <img src="assets/img/gallery/7.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Birthday Parties</h3>
-                  <div class="price">
-                    <p><span>$189</span></p>
+                  <h3>SPIDERMAN</h3>
+                  <div class="sub-judul">
+                    <p><span>No Way Home</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                  Identitas Spider-Man sekarang sudah terungkap, dan Peter meminta bantuan Doctor Strange. 
+                  Namun sebuah kesalahan terjadi, dan itu justru mengundang musuh berbahaya dari dunia lain, mereka mulai bermunculan. 
+                  Hal itu memaksa Peter mencari apa makna sebenarnya menjadi Spider-Man.
                   </p>
                 </div>
               </div>
@@ -219,22 +212,18 @@
                   <img src="assets/img/gallery/2.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Private Parties</h3>
-                  <div class="price">
-                    <p><span>$290</span></p>
+                  <h3>AVENGERS</h3>
+                  <div class="sub-judul">
+                    <p><span>End Game</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
+                  Ketika musuh yang tak terduga muncul, mengancam keselamatan dan keamanan dunia, Nick Fury, direktur Badan Perdamaian Internasional, 
+                  dikenal sebagai S.H.I.E.L.D. , membutuhkan tim untuk menyelamatkan dunia dari bencana. 
+                  Usaha perekrutan pun dimulai Iron Man, Captain America, Hulk, Thor, Black Widow dan Hawkeye dikumpulkan untuk menaklukkan Dewa Kehancuran, 
+                  Loki, dalam usahanya menghancurkan bumi. Dengan semua gabungan kekuatan, tugas nampak lebih mudah. Namun kenyatannya tidak demikian! 
+                  Para pahlawan super justru saling melawan satu sama lain Hulk melawan Captain America, siapa yang akan menang? 
+                  Apakah Iron Man dapat mengalahkan kekuatan super milik Thor? Bagaimana para pahlawan super ini secara bersama-sama menghadapi bencana, 
+                  melindungi masyarakat dan yang terpenting, bertahan hidup?
                   </p>
                 </div>
               </div>
@@ -246,23 +235,14 @@
                   <img src="assets/img/gallery/3.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Custom Parties</h3>
-                  <div class="price">
-                    <p><span>$99</span></p>
+                  <h3>GUARDIANS OF THE GALAXY</h3>
+                  <div class="sub-judul">
+                    <p><span>Vol.2</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
+                    Skuad Guardian disewa oleh Sovereign, ras alien, untuk mendapatkan kembali baterai mereka - tapi Rocket mencurinya. 
+                  Kini, mereka harus segera beraksi untuk menyelamatkan galaxy sebelum terlambat.
+                  </p>                 
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -578,8 +558,8 @@
 
    
 
-    <!-- ======= Chefs Section ======= -->
-    <section id="chefs" class="chefs">
+    <!-- ======= Developer Section ======= -->
+    <section id="dev" class="dev">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -591,7 +571,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <img src="img/hikmat.png" class="img-fluid" alt="">
+              <img src="img/profil-hikmat.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Hikmat Fadrial</h4>
@@ -613,7 +593,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src="img/diva.jpeg" class="img-fluid" alt="">
+              <img src="img/profil-diva.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Diva Amwal</h4>
@@ -635,29 +615,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="/img/chandra.png" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Chandra Ramadhan</h4>
-                  <span>Anggota</span>
-                </div>
-                <div class="social">
-                <a class="sosmed-link" href="https://www.instagram.com/chandrarmdhn_/" target="_blank" target="_blank">
-                        <i class="bi bi-instagram"></i>
-                      
-                    </a> 
-                    <a class="sosmed-link" href="https://github.com/Chandrarmdhn" target="_blank">
-                        <i class="bi bi-github"></i>
-                        
-                    </a> 
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="/img/wahyu.png" class="img-fluid" alt="">
+              <img src="/img/profil-wahyu.jpeg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Wahyu Aprian</h4>
@@ -669,6 +627,28 @@
                         
                     </a> 
                     <a class="sosmed-link" href="https://github.com/WahyuAprian-193040141" target="_blank">
+                        <i class="bi bi-github"></i>
+                        
+                    </a> 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="/img/profil-chandra.jpeg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Chandra Ramadhan</h4>
+                  <span>Anggota</span>
+                </div>
+                <div class="social">
+                <a class="sosmed-link" href="https://www.instagram.com/chandrarmdhn_/" target="_blank" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                      
+                    </a> 
+                    <a class="sosmed-link" href="https://github.com/Chandrarmdhn" target="_blank">
                         <i class="bi bi-github"></i>
                         
                     </a> 
@@ -702,7 +682,7 @@
         </div>
 
       </div>
-    </section><!-- End Chefs Section -->
+    </section><!-- End Developer Section -->
 
     
   </main><!-- End #main -->
@@ -731,7 +711,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#events">Our Favorite</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#gallery">Gallery</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#menu">About Us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#chefs">Develover</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#dev">Develover</a></li>
             </ul>
           </div>
 
