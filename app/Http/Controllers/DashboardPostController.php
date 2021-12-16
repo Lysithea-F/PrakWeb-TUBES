@@ -62,8 +62,8 @@ class DashboardPostController extends Controller
             'popularity' => 'required',
         ]);
 
-        if($request->file('image')) {
-            $validatedData['image'] = $request->file('image')->store('post-images');
+        if($request->file('poster_path')) {
+            $validatedData['poster_path'] = $request->file('poster_path')->store('post-images');
         }
 
         $validatedData['user_id'] = auth()->user()->id;
