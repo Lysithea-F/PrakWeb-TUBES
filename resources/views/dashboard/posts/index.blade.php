@@ -20,6 +20,9 @@
     <!-- Custom styles for this template-->
     <link href="/css/sb-admin-2.min.css" rel="stylesheet">
 
+    {{-- Bootstrap --}}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 </head>
 
 <body id="page-top">
@@ -182,7 +185,11 @@
                           <div class="btn justify-content-center">
                             <a href="/dashboard/posts/{{ $post->id }}" class="btn btn-info">Show</a>
                             <a href="" class="btn btn-warning">Edit</a>
-                            <a href="" class="btn btn-danger">Delete</a>
+                            <form action="/dashboard/posts/{{ $post->slug }}" method="post" class="d-inline">
+                                @method('delete')
+                                @csrf
+                                <button class="btn bg-danger border-0" onclick="return confirm('Are You Sure?')">Delete</span></button>
+                            </form>
                           </div>
                           
                         </div>
