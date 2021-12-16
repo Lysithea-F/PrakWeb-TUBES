@@ -14,9 +14,19 @@ class DashboardPostController extends Controller
      */
     public function index()
     {
+        $posts = Post::latest();
+
+        if (request('search')) {
+            $posts->where('title', 'like', '%' . request('search') . '%');
+        }
+
         return view('dashboard.posts.index', [
-            'posts' => Post::all()
+            'posts' => $posts->get()
         ]);
+
+        // return view('dashboard.posts.index', [
+        //     'posts' => Post::all()
+        // ]);
     }
 
     /**
