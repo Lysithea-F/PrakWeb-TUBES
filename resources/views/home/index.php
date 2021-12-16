@@ -95,34 +95,7 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
-            <div class="about-img">
-              <img src="assets/img/about.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Deskripsi Kelompok CTRL+C</h3>
-            <p class="fst-italic">
-              Kelompok CTRL+C beranggota kan 5 orang, yaitu Hikmat, Ferry, Wahyu, Diva dan Chandra.
-            </p>
-            <p>
-              Kelompok ini dibentuk dengan tujuan dapat menyelesaikan Tugas Besar terkait Mata Kuliah Praktikum
-              Pemrograman Web. Pembagian tugas dilakukan dengan cara musyawarah agar tidak terjadi hal yang tidak
-              mengenakan di dalam kelompok. Indikator keberhasilan dari kelompok kami yaitu dapat mengimplementasikan 
-              penggunaan API pada web, web yang dibangun sudah bisa menggunakan fitur CRUDS, web yang dibangun sudah memiliki fitur Login dan registrasi,
-              dan web yang dibangun harus memiliki field gambar yang nantinya bisa dikelola.
-              Harapan kami web yang kami bangun dapat menjadi bahan pembelajaran yang mungkin nantinya bisa diterapkan di dunia kerja.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
+    
 
     <!-- !-- Search Section --> 
     <section id="Search" class="search">
@@ -167,8 +140,8 @@
 </div>
     </section><!-- Bundel Section -->
 
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
+     <!-- ======= Why Us Section ======= -->
+     <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -203,6 +176,35 @@
 
       </div>
     </section><!-- End Why Us Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/about.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Deskripsi Kelompok CTRL+C</h3>
+            <p class="fst-italic">
+              Kelompok CTRL+C beranggota kan 5 orang, yaitu Hikmat, Ferry, Wahyu, Diva dan Chandra.
+            </p>
+            <p>
+              Kelompok ini dibentuk dengan tujuan dapat menyelesaikan Tugas Besar terkait Mata Kuliah Praktikum
+              Pemrograman Web. Pembagian tugas dilakukan dengan cara musyawarah agar tidak terjadi hal yang tidak
+              mengenakan di dalam kelompok. Indikator keberhasilan dari kelompok kami yaitu dapat mengimplementasikan 
+              penggunaan API pada web, web yang dibangun sudah bisa menggunakan fitur CRUDS, web yang dibangun sudah memiliki fitur Login dan registrasi,
+              dan web yang dibangun harus memiliki field gambar yang nantinya bisa dikelola.
+              Harapan kami web yang kami bangun dapat menjadi bahan pembelajaran yang mungkin nantinya bisa diterapkan di dunia kerja.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
 
     <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu section-bg">
@@ -695,31 +697,23 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+        <div class="col-lg-5 col-md-6">
             <div class="footer-info">
-              <h3>CTRL + C</h3>
-              <p>
-                Jawa Barat <br>
-                Indonesia<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
+              <h4>REFERENSI</h4>
               <div class="social-links mt-3">
-                <a href="#" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" target="_blank" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <ul><a href="https://www.youtube.com/watch?v=HqAMb6kqlLs&list=PLFIM0718LjIWiihbBIq-SWPU6b6x21Q_2" target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a> YouTube</ul>
+                <ul><a href="https://www.instagram.com/sandhikagalih/" target="_blank" class="facebook"><i class="bx bxl-instagram"></i></a> Instagram</ul>
+                <ul><a href="https://github.com/sandhikagalih" target="_blank" class="instagram"><i class="bx bxl-github"></i></a> Github</ul>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#chefs">Developer</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
@@ -728,14 +722,10 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Search Movie</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#Search">Search Movie</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>      
-          </div>
         </div>
       </div>
     </div>
