@@ -6,16 +6,13 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Ctrl + C</title>
-  <!-- <meta content="" name="description">
-  <meta content="" name="keywords"> -->
-
+  
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
-  <!-- Google Fonts -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
-
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -47,24 +44,8 @@
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#menu">About Us</a></li>
           <li><a class="nav-link scrollto" href="#dev">Develover</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-        </ul>
+          <li><a class="nav-link scrollto" href="#weather">Weather</a></li>
+          </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
       <a href="../login/" class="book-a-table-btn scrollto d-none d-lg-flex">Login</a>
@@ -96,7 +77,6 @@
   <main id="main">
 
     
-
     <!-- !-- Search Section --> 
     <section id="Search" class="search">
     <div class="container"  data-aos="fade-up">
@@ -126,14 +106,14 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content bg-dark">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Movie Search</h5>
+        <h5 class="modal-title" id="exampleModalLabel" style="color: #cda45e;">Movie Search</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button"  class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -488,7 +468,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  You can create beautiful things by code - Vania Radmila.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="/img/hikmat.png" class="testimonial-img" alt="">
@@ -501,7 +481,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  Jika kemaren bukan hari ini, maka besok pun bukan kemaren - Diva
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="/img/diva.jpeg" class="testimonial-img" alt="">
@@ -527,7 +507,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Whenever you encounter an error and you have tried to fix it but failed, pray because with prayer, speak on earth and be heard by the heavens.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="/img/wahyu.png" class="testimonial-img" alt="">
@@ -540,7 +520,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  Life is a question and how we live it is our answer. Be yourself, do whatever based on your life principles.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="/img/ferry1.png" class="testimonial-img" alt="">
@@ -684,6 +664,39 @@
       </div>
     </section><!-- End Developer Section -->
 
+
+    <!-- ======= Weather Section ======= -->
+    <section id="weather" class="weather">
+    <link rel="stylesheet" href="css/weater.css">
+    </head>
+    <body>
+    <div class="container">
+        <div class="row mt-3 justify-content-center">
+            <div class="col-md-4">
+                <h1 class="weather-text" style="color: #cda45e;">Check the Weather</h1>
+            </div>
+        </div>
+    
+
+        <div class="row mt-3 justify-content-center">
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control input-keyword" placeholder="Enter City's or country's Name" aria-label="Recipient's username" aria-describedby="">
+                    <!-- <button class="btn btn-primary" type="button" id="button-addon2">Search</button> -->
+                    <button href="#book-a-table" class="bok-a-table-btn" type="button" id="button-addon2">Search</button>
+                </div>
+            </div>    
+        </div>
+    </div>
+        
+
+    <div class="container mt-5 result">
+
+    </div>
+    </section><!-- End Weather Section -->
+
+
+
     
   </main><!-- End #main -->
 
@@ -719,6 +732,7 @@
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#Search">Search Movie</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#weather">Search Weather</a></li>
             </ul>
           </div>
 
@@ -737,6 +751,10 @@
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/weater.js"></script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
