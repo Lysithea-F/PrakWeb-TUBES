@@ -176,10 +176,10 @@
                       <div class="card mb-4" style="width: 18rem;">
                         @if ($post->poster_path)
                         <div style="max-height: 350px; overflow:hidden;">
-                                <img src="{{ asset('storage/' . $post->poster_path) }}" alt="{{ $post->poster_path }}" class="img-fluid mt-3">
+                                <img src="{{ asset('storage/' . $post->poster_path) }}" alt="{{ $post->poster_path }}" class="img-fluid rounded">
                             </div>
                             @else
-                                <img src="../film/{{ $post->poster_path }}" alt="{{ $post->poster_path }}}" class="img-fluid mt-3">
+                                <img src="../film/{{ $post->poster_path }}" alt="{{ $post->poster_path }}}" class="img-fluid rounded">
                         @endif
                        
                         <div class="card-body">

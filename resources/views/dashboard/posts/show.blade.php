@@ -165,11 +165,36 @@
                 <hr>
                 <div class="container-fluid">
                   <div class="row justify-content-center">
-                          <div class="card mb-4 bg-dark" style="max-width: 800px;">
-                            <div class="row g-0">
-                              <div class="col-md-4 ">
-                                <img src="../../film/{{ $post->poster_path }}" class="card-img-top" alt="{{ $post->poster_path }}">
+                          <div class="card mb-4 bg-dark" style="max-width: 950px;">
+                            <div class="row">
+                              <div class="col-lg-5">
+                                @if ($post->poster_path)
+                                <div>
+                                        <img src="{{ asset('storage/' . $post->poster_path) }}" alt="{{ $post->poster_path }}" class="img-fluid rounded">
+                                    </div>
+                                    @else
+                                        <img src="../film/{{ $post->poster_path }}" alt="{{ $post->poster_path }}}" class="img-fluid rounded">
+                                @endif
                               </div>
+                              <div class="col-lg-7 mt-3 mb-3">
+                                <h5 class="card-title text-light">Judul : {{ $post->title }}</h5>
+                                  
+                                  <article class="my-3 fs-5 text-light">Deskripsi : 
+                                  {!! $post->overview !!}
+                                  </article>
+                                  <p class="card-text text-light">Genre : {{ $post->genre }}</p>
+                                  <p class="card-text text-light">Release Date : {{ $post->release_date }}</p>
+                                  <p class="card-text text-light">Popularity : {{ $post->popularity }}</p>
+                              </div>
+                            </div>
+                            {{-- <div class="row g-0">
+                              @if ($post->poster_path)
+                              <div style="max-height: 350px; overflow:hidden;">
+                                      <img src="{{ asset('storage/' . $post->poster_path) }}" alt="{{ $post->poster_path }}" class="img-fluid mt-3">
+                                  </div>
+                                  @else
+                                      <img src="../film/{{ $post->poster_path }}" alt="{{ $post->poster_path }}}" class="img-fluid mt-3">
+                              @endif
                               <div class="col-md-8">
                                 <div class="card-body">
                                 <hr>
@@ -181,7 +206,7 @@
                                   <p class="card-text text-light">Genre : {{ $post->genre }}</p>
                                   <p class="card-text text-light">Release Date : {{ $post->release_date }}</p>
                                   <p class="card-text text-light">Popularity : {{ $post->popularity }}</p>
-                                </div>
+                                </div> --}}
                               </div>
                             </div>
                           </div>       
