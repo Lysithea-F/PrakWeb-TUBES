@@ -20,6 +20,10 @@
     <!-- Custom styles for this template-->
     <link href="/css/sb-admin-2.min.css" rel="stylesheet">
 
+    {{-- Bootstrap --}}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+
 </head>
 
 <body id="page-top">
@@ -132,11 +136,12 @@
 
                
                         <!-- Nav Item - User Information -->
-                        <div class="navbar-nav">
-                          <div class="nav-item text-nowrap ">
-                            <a class="nav-link px-4" href="#">Logout</a>
+                        <div class="nav-item text-nowrap">
+                            <form action="/logout" method="post">
+                              @csrf
+                              <button type="submit" class="nav-link px-3 bg-dark border-0">Logout <span data-feather="log-out"></span></button>
+                            </form>
                           </div>
-                        </div>
 
                 </nav>
                 <!-- End of Topbar -->
@@ -429,10 +434,12 @@
                     </button>
                 </div>
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
-                </div>
+                <div class="nav-item text-nowrap">
+                    <form action="/logout" method="post">
+                      @csrf
+                      <button type="submit" class="nav-link px-3 bg-dark border-0">Logout <span data-feather="log-out"></span></button>
+                    </form>
+                  </div>
             </div>
         </div>
     </div>

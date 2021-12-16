@@ -145,11 +145,12 @@
 
                
                         <!-- Nav Item - User Information -->
-                        <div class="navbar-nav">
-                          <div class="nav-item text-nowrap ">
-                            <a class="nav-link px-4" href="#">Logout</a>
+                        <div class="nav-item text-nowrap">
+                            <form action="/logout" method="post">
+                              @csrf
+                              <button type="submit" class="nav-link px-3 bg-dark border-0">Logout <span data-feather="log-out"></span></button>
+                            </form>
                           </div>
-                        </div>
 
                 </nav>
                 <!-- End of Topbar -->
@@ -243,10 +244,12 @@
                     </button>
                 </div>
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
-                </div>
+                <div class="text-nowrap">
+                    <form action="/logout" method="post">
+                      @csrf
+                      <button type="submit" class="nav-link px-3 bg-dark border-0">Logout <span data-feather="log-out"></span></button>
+                    </form>
+                  </div>
             </div>
         </div>
     </div>
