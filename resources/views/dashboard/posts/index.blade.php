@@ -180,7 +180,7 @@
                           
                           <div class="btn justify-content-center">
                             <a href="/dashboard/posts/{{ $post->slug }}" class="btn btn-info">Show</a>
-                            <a href="" class="btn btn-warning">Edit</a>
+                            <a href="/dashboard/posts/{{ $post->slug }}/edit" class="btn btn-warning">Edit</a>
                             <form action="/dashboard/posts/{{ $post->slug }}" method="post" class="d-inline">
                                 @method('delete')
                                 @csrf

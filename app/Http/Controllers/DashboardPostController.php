@@ -95,7 +95,10 @@ class DashboardPostController extends Controller
      */
     public function edit(Post $post)
     {
-        //
+        return view('dashboard.posts.edit', [
+            'post' => $post,
+            'categories' => Category::all()
+        ]);
     }
 
     /**
@@ -107,7 +110,30 @@ class DashboardPostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
-        //
+        $rules = [
+            'title' => 'required|max:255',
+            'genre' => 'required',     
+            'release_date' => 'date',
+            'poster_path' => 'image|file|max:1024',
+            'overview' => 'required',
+            'popularity' => 'required'
+        ];
+
+        if($request->slug != $post->slug){
+            $rules['slug'] = 'required|unique:posts';
+        }
+
+        $validatedData = $request->validate($rules);
+        if($request->file('poster_path')) {
+            $validatedData['poster_path'] = $request->file('poster_path')->store('post-images');
+        }
+        $validatedData['user_id'] = auth()->user()->id;
+        $validatedData['overview'] = Str::limit(strip_tags($request->overview), 200);
+
+        Post::where('id', $post->id)
+            ->update($validatedData);
+
+        return redirect('dashboard/posts')->with('success', 'Post has Been Updated!');
     }
 
     /**
