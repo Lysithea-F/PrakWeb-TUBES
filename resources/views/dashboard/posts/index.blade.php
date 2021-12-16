@@ -147,9 +147,14 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Post Film</h1>
+                    
+                        <a href="/dashboard/posts/create" class="btn btn-primary mb-3">Create new post film</a>
                     </div>
                 </div>
 
+
+
+                @if ($posts->count())
                 <div class="container-fluid">
                   <div class="row justify-content-center">
                     @foreach ($posts as $post)
@@ -176,6 +181,14 @@
                     @endforeach
                   </div>
                 </div>
+
+                @else
+                    <br><br><br><br>
+                    <hr>
+                    <h1 class="text-center fs-4">No Post Film</h1>
+                    <hr>
+                    <br><br><br><br><br><br><br><br>
+                @endif
                     
 
 
