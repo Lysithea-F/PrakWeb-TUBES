@@ -20,15 +20,13 @@
     <!-- Custom styles for this template-->
     <link href="/css/sb-admin-2.min.css" rel="stylesheet">
 
-    {{-- Bootstrap --}}
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
 </head>
 
-<body id="page-top">
+<body  id="page-top" >
 
     <!-- Page Wrapper -->
-    <div id="wrapper">
+   
+    <div  id="wrapper" >
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -77,9 +75,7 @@
             <hr class="sidebar-divider">
 
             <!-- Heading -->
-            <div class="sidebar-heading">
-                Addons
-            </div>
+            
 
             <!-- Nav Item - Pages Collapse Menu -->
            
@@ -103,7 +99,8 @@
 
             <!-- Main Content -->
             <div id="content">
-
+        
+              
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
@@ -114,7 +111,7 @@
 
                     <!-- Topbar Search -->
                     <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search shadow">
-                        {{-- <div class="input-group">
+                        <div class="input-group">
                             <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
                                 aria-label="Search" aria-describedby="basic-addon2">
                             <div class="input-group-append">
@@ -124,17 +121,7 @@
                                 </svg>
                                 </button>
                             </div>
-                        </div> --}}
-
-                        <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for Film..." name="search" value="{{ request('search') }}">
-                            <button class="btn btn-dark" type="submit">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                                  </svg>
-                            </button>
-                            
-                          </div>
+                        </div>
                     </form>
 
                     <!-- Topbar Navbar -->
@@ -145,78 +132,64 @@
 
                
                         <!-- Nav Item - User Information -->
-                        <div class="nav-item text-nowrap">
-                            <form action="/logout" method="post">
-                              @csrf
-                              <button type="submit" class="nav-link px-3 bg-dark border-0">Logout <span data-feather="log-out"></span></button>
-                            </form>
+                        <div class="navbar-nav">
+                          <div class="nav-item text-nowrap ">
+                            <a class="nav-link px-4" href="#">Logout</a>
                           </div>
-
+                        </div>
                 </nav>
-                <!-- End of Topbar -->
-
-                <!-- Begin Page Content -->
+          
+               
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4 ">
                         <h1 class="h3 mb-0 text-gray-800">Post Film</h1>
-                    
-                        <a href="/dashboard/posts/create" class="btn btn-primary mb-3">Create new post film</a>
                     </div>
+                    <a href="/dashboard/posts" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                  </svg><span data-feather="arrow-left"></span>  Back to all my posts</a>
+                    <a href="/dashboard/posts/{{ $post->slug }}/edit" class="btn btn-warning"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                  </svg><span data-feather="edit"></span> Edit</a>
+                    <form action="/dashboard/posts/{{ $post->slug }}" method="post" class="d-inline">
+                    @method('delete')
+                    @csrf
+                    <button class="btn btn-danger border-0" onclick="return confirm('Are you sure?')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-square" viewBox="0 0 16 16">
+                    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg><span data-feather="x-circle"></span> Delete</button>
+                </form>
                 </div>
-
-
-
-                @if ($posts->count())
+                <hr>
                 <div class="container-fluid">
                   <div class="row justify-content-center">
-                    @foreach ($posts as $post)
-                    <div class="col">
-                      <div class="card mb-4" style="width: 18rem;">
-                        @if ($post->poster_path)
-                        <div style="max-height: 350px; overflow:hidden;">
-                                <img src="{{ asset('storage/' . $post->poster_path) }}" alt="{{ $post->poster_path }}" class="img-fluid mt-3">
+                          <div class="card mb-4 bg-dark" style="max-width: 800px;">
+                            <div class="row g-0">
+                              <div class="col-md-4 ">
+                                <img src="../../film/{{ $post->poster_path }}" class="card-img-top" alt="{{ $post->poster_path }}">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                <hr>
+                                  <h5 class="card-title text-light">Judul : {{ $post->title }}</h5>
+                                  
+                                  <article class="my-3 fs-5 text-light">Deskripsi : 
+                                  {!! $post->overview !!}
+                                  </article>
+                                  <p class="card-text text-light">Genre : {{ $post->genre }}</p>
+                                  <p class="card-text text-light">Release Date : {{ $post->release_date }}</p>
+                                  <p class="card-text text-light">Popularity : {{ $post->popularity }}</p>
+                                </div>
+                              </div>
                             </div>
-                            @else
-                                <img src="../film/{{ $post->poster_path }}" alt="{{ $post->poster_path }}}" class="img-fluid mt-3">
-                        @endif
-                       
-                        <div class="card-body">
-                          <h4 class="card-title">{{ $post->title }}</h4>
-                          <h6 class="card-text" style="text-align:right">{{ $post->genre }}</h6>
-                          <hr>
-                          {{-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> --}}
-                          <p class="card-text">Release Date : {{ $post->release_date }}</p>
-                          <p class="card-text">Popularity : {{ $post->popularity }}</p>
-                          
-                          <div class="btn justify-content-center">
-                            <a href="/dashboard/posts/{{ $post->slug }}" class="btn btn-info">Show</a>
-                            <a href="" class="btn btn-warning">Edit</a>
-                            <form action="/dashboard/posts/{{ $post->slug }}" method="post" class="d-inline">
-                                @method('delete')
-                                @csrf
-                                <button class="btn bg-danger border-0" onclick="return confirm('Are You Sure?')">Delete</span></button>
-                            </form>
-                          </div>
-                          
+                          </div>       
                         </div>
-                      </div>
-                    </div>
-                    @endforeach
-                  </div>
-                </div>
+                      </div>         
+                      </div> 
 
-                @else
-                    <br><br><br><br>
-                    <hr>
-                    <h1 class="text-center fs-4">No Post Film</h1>
-                    <hr>
-                    <br><br><br><br><br><br><br><br>
-                @endif
                     
-
-
 
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
@@ -234,32 +207,8 @@
     </div>
     <!-- End of Page Wrapper -->
 
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
 
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="text-nowrap">
-                    <form action="/logout" method="post">
-                      @csrf
-                      <button type="submit" class="nav-link px-3 bg-dark border-0">Logout <span data-feather="log-out"></span></button>
-                    </form>
-                  </div>
-            </div>
-        </div>
-    </div>
+  
 
     <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
     <!-- Bootstrap core JavaScript-->
