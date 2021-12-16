@@ -174,7 +174,14 @@
                     @foreach ($posts as $post)
                     <div class="col">
                       <div class="card mb-4" style="width: 18rem;">
-                        <img src="../film/{{ $post->poster_path }}" class="card-img-top" alt="{{ $post->poster_path }}">
+                        @if ($post->poster_path)
+                        <div style="max-height: 350px; overflow:hidden;">
+                                <img src="{{ asset('storage/' . $post->poster_path) }}" alt="{{ $post->poster_path }}" class="img-fluid mt-3">
+                            </div>
+                            @else
+                                <img src="../film/{{ $post->poster_path }}" alt="{{ $post->poster_path }}}" class="img-fluid mt-3">
+                        @endif
+                        {{-- <img src="../film/{{ $post->poster_path }}" class="card-img-top" alt="{{ $post->poster_path }}"> --}}
                         <div class="card-body">
                           <h4 class="card-title">{{ $post->title }}</h4>
                           <h6 class="card-text" style="text-align:right">{{ $post->genre }}</h6>
