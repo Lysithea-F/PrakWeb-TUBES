@@ -71,9 +71,7 @@
             {{-- <hr class="sidebar-divider"> --}}
 
             <!-- Heading -->
-            {{-- <div class="sidebar-heading">
-                Addons
-            </div> --}}
+          
 
            
             <!-- Divider -->
@@ -149,9 +147,9 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Eternals
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Fast and Furious
                                                 </div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">40.000 View</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">5.2 IMDb Rating</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -168,8 +166,9 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
-                                                Venom</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">30.000 View</div>
+                                            Venom: Let There Be Carnage
+                                             </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">6.0 IMDb Rating</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -186,8 +185,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
-                                              Shang-Chi  </div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">28.000 View</div>
+                                              Black Widow</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">6.7 IMDb Rating</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -204,8 +203,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
-                                               365 DAYS</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">25.000 View</div>
+                                            No Time To Die</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">7.4 IMDb Rating</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-comments fa-2x text-gray-300"></i>
